@@ -96,7 +96,7 @@ apple
 banana
 pear
 strawberry
-Mango
+mango
 ```
 
 Output:
