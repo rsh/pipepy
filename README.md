@@ -127,9 +127,9 @@ Output:
 3:12:39
 ```
 
-## Using the index variable (`_i`)
-
 ### Multiply every third number by 5 and mark them as "modified"
+
+This one uses the index variable (`_i`).
 
 ```
 echo -e "1\n2\n3\n4\n5\n6\n7\n8\n9\n10" | \
