@@ -34,9 +34,6 @@ TODO: Make this easier / friendlier / more complete.
 
 # Examples
 
-
-## Working with numbers
-
 ### Multiply each number by 5
 
 ```
@@ -80,9 +77,6 @@ Output:
 10
 ```
 
-
-## Working with text
-
 ### Capitalize each line
 
 ```
@@ -110,6 +104,9 @@ Mango
 ```
 
 ### Add time durations
+
+Arguably, this is too complicated to do as a "one-liner" and should be its own script. But it's here so you can see the mechanics of it.
+
 ```
 echo -e "00:24:10\n01:05:55\n01:42:34" | \
 pipepy \
@@ -118,7 +115,6 @@ pipepy \
     --after "print(total)"
 ```
 
-
 Input:
 ```
 01:05:55
@@ -126,13 +122,10 @@ Input:
 01:42:34
 ```
 
-
 Output:
 ```
 3:12:39
 ```
-
-Arguably, this is too complicated to do as a "one-liner" and should be its own script.
 
 ## Using the index variable (`_i`)
 
@@ -175,6 +168,9 @@ Output:
 
 ### Couldn't someone learn `awk` or `sed` instead?
 Yes
+
+### Shouldn't someone learn `awk` or `sed` instead?
+Maybe. `awk` and `sed` are more terse, more widely used, and available on almost every Linux and Mac machine. But I find `pipepy` easier to use.
 
 ### The name "pipepy" is confusing. There's also "PyPy" and "PyPI".
 That's true
