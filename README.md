@@ -181,6 +181,7 @@ That's true
 
 ### This program runs `exec()` on arbitrary user input. Isn't that a security risk?
 No. Anything that you can do with this program, you can already do with `python -c`. It poses no additional security risk.
+
 If you believe I'm wrong about this, please file an issue on the repository.
 
 # TODO
@@ -192,7 +193,6 @@ If you believe I'm wrong about this, please file an issue on the repository.
 Would it be useful to remove the need to invoke "print()" when using the one-parameter version? Or would this be confusiing?
 
 `pipepy.py "print(_line.capitalize())"` would become `pipepy.py "_line.capitalize()"
-
 
 Should this be an option instead?
 
