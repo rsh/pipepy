@@ -167,13 +167,13 @@ Output:
 # FAQ
 
 ### Couldn't someone learn `awk` or `sed` instead?
-Yes
+Yes.
 
 ### Shouldn't someone learn `awk` or `sed` instead?
-Maybe. `awk` and `sed` are more terse, more widely used, and available on almost every Linux and Mac machine. But I find `pipepy` easier to use.
+Maybe. `awk` and `sed` are have the benefit of being more terse, more widely used, and available on almost every Linux and Mac machine. But I find `pipepy` easier to use.
 
 ### The name "pipepy" is confusing. There's also "PyPy" and "PyPI".
-That's true
+That's true.
 
 ### This program runs `exec()` on arbitrary user input. Isn't that a security risk?
 No. Anything that you can do with this program, you can already do with `python -c`. It poses no additional security risk.
