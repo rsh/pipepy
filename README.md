@@ -192,4 +192,4 @@ Would it be useful to remove the need to invoke "print()" when using the one-par
 
 Should this be an option instead?
 
-
+Doing this probably requires redirecting standard output, as in [this code snippet](https://stackoverflow.com/a/41614610).
